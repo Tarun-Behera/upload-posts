@@ -1,0 +1,14 @@
+/* *here css for flash-msg is applied */
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 10%;
+    color: rgb(100, 10, 10);
+    background-color: rgb(235, 198, 198);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+  }

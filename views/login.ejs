@@ -1,0 +1,45 @@
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../stylesheets/loginPage.css">
+  <link rel="stylesheet" href="../stylesheets/flash-msg.css">
+  <script src="../javascripts/error.js" defer></script>
+</head>
+
+<body>
+  <div class="login-container">
+    <center>
+      <h2>
+        <a>Login</a>
+      </h2>
+    </center>
+    <hr>
+    <form action="/login" method="post">
+      <center>
+        <% if(error.length> 0){ %>
+          <div class="error">
+            <p style="font-size: 17px; margin: 0;">
+              <%= error %>
+            </p>
+            <i class="cross-btn bi bi-x">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
+                class="bi bi-x" viewBox="0 0 16 16">
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+              </svg></i>
+          </div>
+          <%}%>
+            <div class="login-values">
+              <div>
+                <input type="text" name="username" placeholder="Username" value="">
+                <input type="password" name="password" placeholder="Password">
+              </div>
+              <!-- <p class="a-link"><a href="#forget-password">Forget password?</a></p> -->
+              <p class="a-link"><a href="/register">Don't have an account? <span
+                    style="text-decoration: underline;">Register here.</span></a></p>
+              <button class="button" type="submit">Login</button>
+            </div>
+      </center>
+      <br>
+    </form>
+</body>

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    background-color: rgb(32, 33, 36);
+}
+
+.grid {
+    text-align: center;
+    max-width: 100vw;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 300px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline;
+}
+.grid-item>a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.grid-item img{
+    border-radius: 10px;
+}
+#image-text{
+  text-align: left;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+/* @media (min-width: 500px) {
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-item {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .grid-item {
+    width: 25%;
+  }
+}
+
+@media (min-width: 2100px) {
+  .grid-item {
+    width: 20%;
+  }
+} */

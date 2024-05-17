@@ -1,0 +1,30 @@
+body {
+  background-color:rgb(32, 33, 36);
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+
+.button-container{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.right-button {
+  background-color: #636466;
+  margin-left: 10px;
+}
+
+

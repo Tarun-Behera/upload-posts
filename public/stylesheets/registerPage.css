@@ -1,0 +1,150 @@
+/*FONT*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  font-weight: 300;
+  color: white;
+  background-color: rgb(32, 33, 36);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  width: 345px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  z-index: 2000;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-put;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.container a:hover {
+  text-shadow: 2px 2px 4px #10707f;
+}
+
+.container hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container input {
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 300;
+  text-indent: 0px;
+}
+
+.fa-ic {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 25px;
+}
+
+.container input:hover {
+  text-indent: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container input:focus {
+  text-indent: 0px;
+  width: 85%;
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container input::placeholder {
+  color: #f8f8f8;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.container input:focus::placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+
+.a-link a {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 300;
+  -transition-duration: 0.20s;
+}
+
+.a-link a:hover {
+  line-height: 1.5;
+  font-weight: 300;
+  color: #57F5FF;
+  text-shadow: 1px 1px 4px black;
+}
+
+.container button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  background-color: #005ce6;
+  border-color: #10707f;
+  border-radius: 3px;
+  width: 90%;
+  height: 40px;
+}
+
+.container button:hover {
+  background-color: #0066ff;
+  border-color: #10707f;
+  box-shadow: 0 0 0 2px rgba(0, 92, 230, .5);
+}
+
+.container button:focus {
+  width: 85%;
+  background-color: #0052cc;
+  border-color: #10707f;
+}
+
+
+
