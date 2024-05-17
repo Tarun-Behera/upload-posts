@@ -1,1 +1,1 @@
-# upload-posts :- dumy of the OwnInterest website. just made for fun and testing purpose.
+ed# upload-posts :- simply bassed on authentication where only authenticated person can post his posts.
